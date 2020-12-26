@@ -1,1 +1,18 @@
-
+server:
+  port: 8888
+spring:
+  application:
+    name: xingdaba-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitlab-demo.com/6072151/config-repository.git
+          username: hcggang@163.com
+          password: hcgaa1121BB
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
