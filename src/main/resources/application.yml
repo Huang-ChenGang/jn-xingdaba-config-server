@@ -7,12 +7,66 @@ spring:
     config:
       server:
         git:
-          uri: https://gitlab-demo.com/6072151/config-repository.git
-          username: hcggang@163.com
-          password: hcgaa1121BB
+          uri: git@gitlab-demo.com:6072151/config-repository.git
+          ignore-local-ssh-settings: true
+          default-label: master
+          strict-host-key-checking: false
+          private-key: |
+            -----BEGIN RSA PRIVATE KEY-----
+            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
+            -----END RSA PRIVATE KEY-----
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://xingdaba-eureka:8761/eureka/
+#      defaultZone: http://localhost:8761/eureka/
   instance:
     prefer-ip-address: true
